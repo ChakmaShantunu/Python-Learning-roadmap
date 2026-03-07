@@ -1,6 +1,6 @@
 print("hello world");
-name = input("Enter your name: ")
-age = input("Enter your age: ")
+# name = input("Enter your name: ")
+# age = input("Enter your age: ")
 height = 5.6
 isStudent = True
 a = 5
@@ -11,8 +11,28 @@ age = 30
 if(age >= 18): print("You can vote")
 else: print("You cannot vote")
 
-print("Hello", name)
-print(age)
+# print("Hello", name)
+# print(age)
 print(height)
 print(isStudent)
 print(a > b)
+
+# Day 2 python learning
+for i in range(5): print("hello boss. welcome to python")
+for i in range(5): print(i)
+for i in range(1,11): print(i)
+
+i = 5
+while i <= 5: 
+    print(i) 
+    i = i + 1
+
+total = 0
+
+for i in range(1,6):
+    total = total + i 
+print(total)
+
+for i in range(1, 11): 
+    if(i % 2 ==0): 
+        print(i)       
