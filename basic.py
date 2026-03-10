@@ -35,4 +35,23 @@ print(total)
 
 for i in range(1, 11): 
     if(i % 2 ==0): 
-        print(i)       
+        print(i)
+
+numbers = [10, 20, 30]
+print(numbers)
+
+fruits = ["apple", "banana", "mango"]
+print(fruits[0])       
+print(fruits[1])       
+print(fruits[2])     
+print(len(fruits))
+
+
+fruits.append("grapes")
+print(fruits) 
+
+fruits.remove("grapes")
+print(fruits)
+
+for fruit in fruits:
+    print(fruit)   
