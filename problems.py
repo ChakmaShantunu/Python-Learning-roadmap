@@ -33,3 +33,24 @@ sum = 0
 for i in range(1, 11):
       sum += i
 print(sum)
+
+# Problem 6 
+# Create a list:
+# [5, 10, 15, 20]
+# Use a loop to print all the numbers in the list.
+
+numbers = [5, 10, 15, 20]
+
+for number in numbers:
+    print(number)
+
+# Problem 7
+# Given the list:
+# [10, 20, 30, 40]
+# Find the sum of all the numbers in the list.  
+
+counts = [10, 20, 30, 40]
+total = 0
+for count in counts:
+    total += count
+print(total)    
