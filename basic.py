@@ -55,3 +55,26 @@ print(fruits)
 
 for fruit in fruits:
     print(fruit)   
+
+def greet(): 
+    print("Hello boss welcome to python")
+greet()       
+ 
+def greet(name): 
+    print("Hello boss welcome to python", name)
+greet("Shantunu")
+
+def add(a, b):
+    print(a + b)
+add(5, 3) 
+         
+def add(a, b):
+    return a + b
+result = add(12, 3)
+print(result)  
+
+def print_numbers(n):
+    for i in range(1, n+1):
+        print(i)
+        
+print_numbers(5)        
