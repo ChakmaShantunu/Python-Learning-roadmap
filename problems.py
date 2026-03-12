@@ -69,3 +69,18 @@ print(person)
 #Problem 9
 #Print the name from this dictionary.
 print(person["name"])
+
+#Problem 10
+# Create a dictionary with
+# apple : 10
+# banana : 5
+# mango : 8
+# Use a loop to print all keys and values
+
+fruits = {
+    "apple" : 10,
+    "banana": 5,
+    "mango": 8
+}
+for key, value in fruits.items(): 
+    print(key, value)
