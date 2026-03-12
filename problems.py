@@ -54,3 +54,14 @@ total = 0
 for count in counts:
     total += count
 print(total)    
+
+# Problem 1
+# Create a dictionary with the following keys: # name # age # country
+# Then print the dictionary.
+
+person = {
+    "name" : "Supta Chakma",
+    "age" : 24,
+    "country" : "Bangladesh"
+}
+print(person)
