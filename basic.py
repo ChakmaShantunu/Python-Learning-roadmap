@@ -77,4 +77,19 @@ def print_numbers(n):
     for i in range(1, n+1):
         print(i)
         
-print_numbers(5)        
+print_numbers(5)  
+
+student = {
+    "name": "student",
+    "age": 30,
+    "city": "Rangamati"
+}   
+print(student)  
+print(student["age"]) 
+student["study"]= "BSS"
+print(student)
+student["age"] = 31
+print(student)
+
+for key, value in student.items(): 
+    print(key, value)
