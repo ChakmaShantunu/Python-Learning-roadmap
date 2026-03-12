@@ -55,7 +55,7 @@ for count in counts:
     total += count
 print(total)    
 
-# Problem 1
+# Problem 8
 # Create a dictionary with the following keys: # name # age # country
 # Then print the dictionary.
 
@@ -65,3 +65,7 @@ person = {
     "country" : "Bangladesh"
 }
 print(person)
+
+#Problem 9
+#Print the name from this dictionary.
+print(person["name"])
