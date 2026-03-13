@@ -99,4 +99,6 @@ students = [
     {"name":"Tiptip", "age": 12},
     {"name":"Choto", "age": 11},
 ]  
-print(students)  
+print(students)
+print(students[0]["name"])
+print(students[1]["name"])
