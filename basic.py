@@ -93,3 +93,10 @@ print(student)
 
 for key, value in student.items(): 
     print(key, value)
+
+students = [
+    {"name":"Jenia", "age": 15},
+    {"name":"Tiptip", "age": 12},
+    {"name":"Choto", "age": 11},
+]  
+print(students)  
