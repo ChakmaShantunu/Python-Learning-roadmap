@@ -105,3 +105,9 @@ print(students[1]["name"])
 
 for student in students:
     print(student["name"],"is", student["age"], "years old")
+
+student = {
+    "name": "Shantunu Chakma",
+    "mark": [80, 85, 95]
+}    
+print(student["mark"])
