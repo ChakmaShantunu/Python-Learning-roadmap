@@ -111,3 +111,6 @@ student = {
     "mark": [80, 85, 95]
 }    
 print(student["mark"])
+
+for mark in student["mark"]:
+    print(mark)
