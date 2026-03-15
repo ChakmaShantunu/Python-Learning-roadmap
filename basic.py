@@ -127,3 +127,6 @@ print(text.strip())
 
 text2 = "I love Java"
 print(text2.replace("Java", "Python"))
+
+text3 = "apple banana mango"
+print(text3.split())
