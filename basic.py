@@ -124,3 +124,6 @@ print(text[2:len(text)])
 print(text.upper())  
 print(text.lower())
 print(text.strip())
+
+text2 = "I love Java"
+print(text2.replace("Java", "Python"))
