@@ -115,11 +115,12 @@ print(student["mark"])
 for mark in student["mark"]:
     print(mark)
 
-text = "Python"
+text = "   Python   "
 print(text[0])    
 print(text[1])    
 print(text[2])
 print(text[0:3])     
 print(text[2:len(text)])
 print(text.upper())  
-print(text.lower())  
+print(text.lower())
+print(text.strip())
