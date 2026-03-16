@@ -90,3 +90,9 @@ for key, value in fruits.items():
 
 text = "python"
 print(text[0])
+
+#Problem 12
+#Print the last character of this string
+
+text = "python"
+print(text[-1])
