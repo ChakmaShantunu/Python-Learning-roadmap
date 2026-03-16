@@ -84,3 +84,9 @@ fruits = {
 }
 for key, value in fruits.items(): 
     print(key, value)
+
+#Problem 11
+#Print the first character of this string  
+
+text = "python"
+print(text[0])
