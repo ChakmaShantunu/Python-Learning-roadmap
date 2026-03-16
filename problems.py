@@ -104,4 +104,7 @@ text = "I love Java"
 print(text.replace("Java", "Python"))
 
 #Problem 14
-#Print the last character of this string
+#Make this string into a list
+
+text = "apple banana mango"
+print(text.split())
