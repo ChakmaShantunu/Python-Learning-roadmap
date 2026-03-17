@@ -135,7 +135,22 @@ print(text3.split())
 
 num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
-print("Add: ", num1 + num2)
-print("Sub: ", num1 - num2)
-print("Mul: ", num1 * num2)
-print("Div: ", num1 / num2)
+# print("Add: ", num1 + num2)
+# print("Sub: ", num1 - num2)
+# print("Mul: ", num1 * num2)
+# print("Div: ", num1 / num2)
+
+#User choice add
+op = input("Enter Operator (+, -, *, /): ")
+
+if op == '+': 
+    print(num1 + num2)
+elif op == '-': 
+    print(num1 - num2)    
+elif op == '*': 
+    print(num1 * num2)    
+elif op == '/': 
+    print(num1 / num2)
+else: 
+    print("Invalid Operator")       
+    
