@@ -1,4 +1,9 @@
 import random
 
 number = random.randint(1, 10)
-print(number)
+
+guess = int(input("Guess the number between(1 - 10): "))
+if guess == number: 
+    print("Correct")
+else: 
+    print("Wrong. The number was: ", number)    
