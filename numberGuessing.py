@@ -2,8 +2,13 @@ import random
 
 number = random.randint(1, 10)
 
-guess = int(input("Guess the number between(1 - 10): "))
-if guess == number: 
-    print("Correct")
-else: 
-    print("Wrong. The number was: ", number)    
+while True:
+    guess = int(input("Guess the number between(1 - 10): "))
+    
+    if guess == number: 
+        print("You guessed it right")
+        break
+    elif guess > number: 
+        print("Too high")    
+    else: 
+        print("Too low")    
