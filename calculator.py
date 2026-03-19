@@ -1,3 +1,6 @@
+
+
+
 def calculator(a, b, op):
     if op == "+": 
         return a + b
@@ -17,4 +20,5 @@ num2 = int(input("Enter second number: "))
 op = input("Enter operator: ")
 
 result = calculator(num1, num2, op)
-print("Result: ", result)    
+print("Result: ", result) 
+
