@@ -1,6 +1,7 @@
 import random
 
 number = random.randint(1, 10)
+print("You have 5 chances")
 
 attempts = 5
     
