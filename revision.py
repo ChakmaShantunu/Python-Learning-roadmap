@@ -18,7 +18,13 @@ number2 = int(input("Enter your number: "))
 if number2 > 0: 
     print("Positive")
 else: 
-    print("Negative")    
+    print("Negative")
+
+number3 = int(input("Enter your number: "))
+if number3 > 15: 
+    print("Greater than 10")
+else: 
+    print("Not greater than 10")           
         
 
 for i in range(1, 11): 
