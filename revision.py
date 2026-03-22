@@ -15,4 +15,8 @@ else:
     print("Odd")
 
 for i in range(1, 11): 
-    print(i) 
+    print(i)
+    
+def add(a, b):
+    print(a + b)
+add(5, 6)        
