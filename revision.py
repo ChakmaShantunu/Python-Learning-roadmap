@@ -8,8 +8,11 @@ print(a / b)
 name = input("Enter your name: ")
 print("Hello", name)
 
-number = input("Enter your number: ")
+number = int(input("Enter your number: "))
 if number % 2 == 0: 
     print("Even")
 else: 
-    print("Odd")    
+    print("Odd")
+
+for i in range(1, 11): 
+    print(i) 
