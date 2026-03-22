@@ -14,6 +14,13 @@ if number % 2 == 0:
 else: 
     print("Odd")
 
+number2 = int(input("Enter your number: "))
+if number2 > 0: 
+    print("Positive")
+else: 
+    print("Negative")    
+        
+
 for i in range(1, 11): 
     print(i)
     
