@@ -32,4 +32,8 @@ for i in range(1, 11):
     
 def add(a, b):
     print(a + b)
-add(5, 6)        
+add(5, 6)
+
+num = int(input("Enter your first number: "))
+num2 = int(input("Enter your second number"))
+print(num + num2)
