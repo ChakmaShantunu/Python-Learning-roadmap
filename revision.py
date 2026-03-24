@@ -61,4 +61,8 @@ students = [
 ]
 
 print(students[0]["name"])    
-print(students[1]["name"])    
+print(students[1]["name"])
+
+text = "Python"
+for i in text: 
+    print(i)    
