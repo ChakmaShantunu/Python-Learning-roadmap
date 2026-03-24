@@ -45,3 +45,12 @@ person = {
 }
     
 print(person["name"])
+
+fruits = {
+"apple":10,
+"banana":5,
+"mango":8
+}
+
+for fruit in fruits:
+    print(fruit)
