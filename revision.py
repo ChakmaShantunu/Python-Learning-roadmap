@@ -54,3 +54,11 @@ fruits = {
 
 for fruit in fruits:
     print(fruit)
+    
+students = [
+{"name":"Rahim","age":20},
+{"name":"Karim","age":25}
+]
+
+print(students[0]["name"])    
+print(students[1]["name"])    
