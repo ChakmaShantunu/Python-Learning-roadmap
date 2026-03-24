@@ -37,3 +37,11 @@ add(5, 6)
 num = int(input("Enter your first number: "))
 num2 = int(input("Enter your second number"))
 print(num + num2)
+
+person = {
+    "name" : "Rahim",
+    "age" : 20,
+    "city" : "Dhaka"
+}
+    
+print(person["name"])
