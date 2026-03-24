@@ -68,4 +68,8 @@ for i in text:
     print(i)
 
 text2 = "I love Java"
-print(text2.replace("Java", "Python"))     
+print(text2.replace("Java", "Python"))  
+
+text3 = "apple banana mango"
+words = text3.split(" ")
+print(words)
