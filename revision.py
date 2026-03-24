@@ -65,4 +65,7 @@ print(students[1]["name"])
 
 text = "Python"
 for i in text: 
-    print(i)    
+    print(i)
+
+text2 = "I love Java"
+print(text2.replace("Java", "Python"))     
