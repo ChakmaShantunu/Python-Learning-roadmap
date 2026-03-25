@@ -72,4 +72,5 @@ print(text2.replace("Java", "Python"))
 
 text3 = "apple banana mango"
 words = text3.split(" ")
-print(words)
+for word in words: 
+    print(word.upper())
