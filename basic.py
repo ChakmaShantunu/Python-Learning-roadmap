@@ -152,5 +152,11 @@ elif op == '*':
 elif op == '/': 
     print(num1 / num2)
 else: 
-    print("Invalid Operator")       
+    print("Invalid Operator")   
+
+fruits = ["apple", "banana"]
+fruits.append("mango")
+print(fruits)
+fruits.insert(1, "pineaple")
+print(fruits)
     
