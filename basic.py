@@ -159,4 +159,11 @@ fruits.append("mango")
 print(fruits)
 fruits.insert(1, "pineaple")
 print(fruits)
-    
+fruits.remove("pineaple")
+print(fruits)
+fruits.pop(1)
+print(fruits)
+
+numbers = [5, 1, 9, 3]
+numbers.sort()
+print(numbers)
