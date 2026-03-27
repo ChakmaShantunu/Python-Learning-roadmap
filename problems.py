@@ -112,3 +112,5 @@ print(text.split())
 numbers = [10, 20, 30]
 numbers.append(40)
 print(numbers)
+numbers.remove(40)
+print(numbers)
