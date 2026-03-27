@@ -109,3 +109,6 @@ print(text.replace("Java", "Python"))
 text = "apple banana mango"
 print(text.split())
 
+numbers = [10, 20, 30]
+numbers.append(40)
+print(numbers)
