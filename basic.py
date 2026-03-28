@@ -172,3 +172,6 @@ text = "python"
 print(text.upper())
 print(text.lower())
 print("py" in text)
+
+name = input("Enter your name: ")
+print(name.upper())
