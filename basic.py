@@ -167,3 +167,7 @@ print(fruits)
 numbers = [5, 1, 9, 3]
 numbers.sort()
 print(numbers)
+
+text = "python"
+print(text.upper())
+print(text.lower())

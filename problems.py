@@ -114,3 +114,7 @@ numbers.append(40)
 print(numbers)
 numbers.remove(40)
 print(numbers)
+
+text = "python"
+print(text.upper())
+print(text.lower())
