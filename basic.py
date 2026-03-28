@@ -171,3 +171,4 @@ print(numbers)
 text = "python"
 print(text.upper())
 print(text.lower())
+print("py" in text)
