@@ -175,3 +175,10 @@ print("py" in text)
 
 name = input("Enter your name: ")
 print(name.upper())
+
+#tuple
+numbers = (10, 20, 30)
+print(numbers)
+print(numbers[0])
+print(numbers[1])
+print(numbers[2])
