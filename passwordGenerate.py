@@ -1,11 +1,13 @@
 import random
 import string
 
+length = int(input("Enter password length: "))
+
 charecters = string.ascii_letters + string.digits + string.punctuation
 
 password = ""
 
-for i in range(8): 
+for i in range(length): 
     password += random.choice(charecters)
 
 print("Generated Password: ", password)    
