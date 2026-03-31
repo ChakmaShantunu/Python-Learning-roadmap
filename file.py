@@ -6,3 +6,7 @@ f.close()
 f = open("data.txt", "w")
 f.write("Hello boss. Welcome to python learning")
 f.close()
+
+f = open("data.txt", "a")
+f.write("\nNew line added")
+f.close()
