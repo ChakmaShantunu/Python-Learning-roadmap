@@ -17,3 +17,9 @@ with open("data.txt", 'w') as file:
 with open("data.txt", 'r') as file: 
     content = file.read()
     print(content)
+
+task = input("Enter task: ")
+with open("task.txt", 'a') as file: 
+    file.write(task + "\n")
+print("task saved")    
+        
