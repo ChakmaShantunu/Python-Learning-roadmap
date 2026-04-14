@@ -43,5 +43,11 @@ while True:
                     top = s
                 print("Top Students:", top["name"], top["marks"]) 
             else: 
-                print("No data")           
+                print("No data") 
+    
+    elif choice == "5": 
+        break
+    
+    else: 
+        print("Invalid choice")                      
     
