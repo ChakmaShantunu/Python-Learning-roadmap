@@ -32,5 +32,16 @@ while True:
         if len(students) > 0: 
             print("Average:", total/len(students))  
         else: 
-            print("No data")     
+            print("No data")  
+               
+    elif choice == "4": 
+        if len(students) > 0: 
+            top = students[0]    
+            
+            for s in students: 
+                if s["marks"] > top["marks"]: 
+                    top = s
+                print("Top Students:", top["name"], top["marks"]) 
+            else: 
+                print("No data")           
     
