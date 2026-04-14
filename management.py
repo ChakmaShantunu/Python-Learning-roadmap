@@ -5,7 +5,7 @@ while True:
     print("2. view students")
     print("3. average marks")
     print("4. top students")
-    print("5. exist")
+    print("5. exit")
     
     choice = input("Enter choice: ")
     
@@ -14,15 +14,18 @@ while True:
         marks = int(input("Enter mark: "))
         
         student = {
-            name: name,
-            marks: marks
+            "name": name,
+            "marks": marks
         }
         students.append(student)
         print("Students added")
     
     elif choice == "2": 
-        for s in students: 
-            print(s["name"], s["marks"])   
+        if len(students) > 0: 
+            for s in students: 
+                print(s["name"], s["marks"])  
+        else: 
+            print("No data")     
              
     elif choice == "3": 
         total = 0
@@ -41,9 +44,9 @@ while True:
             for s in students: 
                 if s["marks"] > top["marks"]: 
                     top = s
-                print("Top Students:", top["name"], top["marks"]) 
-            else: 
-                print("No data") 
+            print("Top Students:", top["name"], top["marks"]) 
+        else: 
+            print("No data") 
     
     elif choice == "5": 
         break
