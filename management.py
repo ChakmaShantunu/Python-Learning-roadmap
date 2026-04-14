@@ -20,3 +20,7 @@ while True:
         students.append(student)
         print("Students added")
     
+    elif choice == "2": 
+        for s in students: 
+            print(s[name], s[mark])    
+    
