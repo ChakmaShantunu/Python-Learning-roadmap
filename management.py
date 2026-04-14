@@ -11,16 +11,26 @@ while True:
     
     if choice == "1": 
         name = input("Enter name: ")
-        mark = int(input("Enter mark: "))
+        marks = int(input("Enter mark: "))
         
         student = {
             name: name,
-            mark: mark
+            marks: marks
         }
         students.append(student)
         print("Students added")
     
     elif choice == "2": 
         for s in students: 
-            print(s[name], s[mark])    
+            print(s["name"], s["marks"])   
+             
+    elif choice == "3": 
+        total = 0
+        for s in students: 
+            total += s["marks"]
+            
+        if len(students) > 0: 
+            print("Average:", total/len(students))  
+        else: 
+            print("No data")     
     
